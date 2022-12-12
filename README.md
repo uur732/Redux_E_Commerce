@@ -1,3 +1,6 @@
+E-commerce-app, React, React-Redux kullanarak yapmış olduğum bir e-ticaret sitesidir. Aynı zamanda Tailwindss, React-Router, LocalStorage ve React-Icons kullandım. Verilerimi "https://fakestoreapi.com/" adresinden fetchleyerek çektim. Uygulama url üzerinden gelen verileri, sepete ekle-çıkar mantığı ile çalışmaktadır. Ayrıca arama inputu aktiftir ve url üzerinden gelen verileri filtreleyerek arama yapabilmektedir.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

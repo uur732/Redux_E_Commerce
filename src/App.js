@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from './pages/Home';
 import Detail from './pages/Detail';
@@ -14,14 +14,14 @@ function App() {
   return (
     <div>
       <PageContainer>
-        <BrowserRouter>
+        <HashRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="detail/:id" element={<Detail />} />
           </Routes>
           {drawer && <Card />}
-        </BrowserRouter>
+        </HashRouter>
       </PageContainer>
     </div>
   );
